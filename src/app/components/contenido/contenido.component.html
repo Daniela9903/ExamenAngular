@@ -1,0 +1,38 @@
+<div class="card cardFormulario col-4 mt-5">
+    <div class="card-body">
+        <form [formGroup]="formulario" (ngSubmit)="Guardar()">
+            <label>Ingresa la información del trabajador</label>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Nombre</label>
+              <input type="nombre" class="form-control" formControlName="nombre">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Apellido</label>
+                <input id="apellido" type="text" class="form-control" formControlName="apellido">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Numero de trabajador</label>
+                <input id="num_trab" type="text" class="form-control" formControlName="num_trab">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Puesto</label>
+                <input id="puesto" type="text" class="form-control" formControlName="puesto">
+            </div>
+              
+            <div class="mb-3">
+                <label class="form-label">Correo</label>
+                <input id="email" type="email"  class="form-control" formControlName="email">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Telefono</label>
+                <input id="telefono" type="text" class="form-control" formControlName="telefono">
+            </div>
+           
+            <button type="submit" class="btn bt-guardar">Registrar</button>
+        </form>
+    </div>
+  </div>

@@ -1,0 +1,21 @@
+
+.cardFormulario{
+    margin: auto 0;
+    background-color: rgba(17, 71, 153, 0.747);
+    display: block;
+    margin-top: 50px;
+    border-radius: 4%;
+margin-left: 500px;
+}
+
+.form-control{
+    background-color: rgba(108, 126, 126, 0.37);
+}
+.bt-guardar{
+    background-color: rgb(20, 71, 119);
+    color: azure;
+}
+
+.bt-guardar:hover{
+    background-color: rgba(20, 71, 119, 0.527);;
+}
